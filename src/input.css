@@ -638,7 +638,73 @@ body[data-page="home"] .menu-sheet [data-nav="home"] { font-style: italic; }
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Mobile menu: slides in from the right, backdrop fades. Native popover + @starting-style, so the
+   close animation runs before the popover leaves the top layer (allow-discrete on display/overlay).
+   Browsers without support simply show and hide it instantly. */
+.menu-sheet {
+  transform: translateX(100%);
+  transition:
+    transform .28s cubic-bezier(.4, 0, 1, 1),
+    overlay .28s allow-discrete,
+    display .28s allow-discrete;
+}
+.menu-sheet:popover-open {
+  transform: translateX(0);
+  transition:
+    transform .42s cubic-bezier(.22, 1, .36, 1),
+    overlay .42s allow-discrete,
+    display .42s allow-discrete;
+}
+@starting-style {
+  .menu-sheet:popover-open { transform: translateX(100%); }
+}
+.menu-sheet::backdrop {
+  background-color: rgb(6 33 31 / 0);
+  transition:
+    background-color .28s ease,
+    overlay .28s allow-discrete,
+    display .28s allow-discrete;
+}
+.menu-sheet:popover-open::backdrop {
+  background-color: rgb(6 33 31 / .35);
+  transition-duration: .42s;
+}
+@starting-style {
+  .menu-sheet:popover-open::backdrop { background-color: rgb(6 33 31 / 0); }
+}
+/* links and buttons follow the panel in, slightly staggered */
+.menu-sheet nav a,
+.menu-sheet__actions {
+  opacity: 0;
+  transform: translateX(16px);
+  transition: opacity .2s ease, transform .2s ease;
+}
+.menu-sheet:popover-open nav a,
+.menu-sheet:popover-open .menu-sheet__actions {
+  opacity: 1;
+  transform: none;
+  transition: opacity .38s ease, transform .5s cubic-bezier(.22, 1, .36, 1);
+}
+@starting-style {
+  .menu-sheet:popover-open nav a,
+  .menu-sheet:popover-open .menu-sheet__actions { opacity: 0; transform: translateX(16px); }
+}
+.menu-sheet:popover-open nav a:nth-child(1) { transition-delay: .08s; }
+.menu-sheet:popover-open nav a:nth-child(2) { transition-delay: .11s; }
+.menu-sheet:popover-open nav a:nth-child(3) { transition-delay: .14s; }
+.menu-sheet:popover-open nav a:nth-child(4) { transition-delay: .17s; }
+.menu-sheet:popover-open nav a:nth-child(5) { transition-delay: .20s; }
+.menu-sheet:popover-open nav a:nth-child(6) { transition-delay: .23s; }
+.menu-sheet:popover-open nav a:nth-child(7) { transition-delay: .26s; }
+.menu-sheet:popover-open .menu-sheet__actions { transition-delay: .3s; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .rise { animation: none; }
+  .menu-sheet,
+  .menu-sheet::backdrop,
+  .menu-sheet nav a,
+  .menu-sheet__actions { transition: none !important; }
+  .menu-sheet nav a,
+  .menu-sheet__actions { opacity: 1; transform: none; }
 }
