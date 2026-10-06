@@ -1,9 +1,33 @@
 # DRY EYECARE
 
-> DRY EYECARE provides drop-less dry eye treatment services in Greenwich and Darien, CT.
+> DRY EYECARE is the dedicated dry eye practice of PRO EYECARE, led by Dr. Inna Lazar, OD, with offices in Greenwich and Darien, Connecticut. It diagnoses the cause of dry eye and treats it with in-office, drop-less therapies.
 
-## Services
-- OptiLIGHT
+- Phone (both offices): (203) 202-0202
+- Email: pro@drinnalazar.com
+- Greenwich: 115 East Putnam Avenue, Greenwich, CT 06830. Mon, Wed–Fri 9–5; Tue 9–6; Sat by request; Sun closed.
+- Darien: 36 Old Kings Highway South, Suite 110, Darien, CT 06820. Mon–Wed, Fri 9–5; Thu 9–6; Sat–Sun closed.
+- Parent practice (eye exams, eyewear, myopia care): https://getproeyecare.com/
 
-### Signature
-- OptiLIGHT
+## Pages
+- [Home](https://dryeyecare.example.com/): overview, symptoms, treatments, both offices, FAQ
+- [Dry eye](https://dryeyecare.example.com/dry-eye): what dry eye is, symptoms, causes, diagnosis
+- [Treatments](https://dryeyecare.example.com/treatments): all in-office treatments compared
+- [About](https://dryeyecare.example.com/about): Dr. Inna Lazar and the practice
+- [Greenwich office](https://dryeyecare.example.com/greenwich)
+- [Darien office](https://dryeyecare.example.com/darien)
+- [Contact](https://dryeyecare.example.com/contact): appointment requests
+
+## Treatments
+- [OptiLIGHT](https://dryeyecare.example.com/optilight): Intense pulsed light
+- [OptiPLUS](https://dryeyecare.example.com/optiplus): Radiofrequency
+- [TearCare](https://dryeyecare.example.com/tearcare): Targeted eyelid heat
+- [Low-level light therapy](https://dryeyecare.example.com/low-level-light-therapy): Photobiomodulation
+- [BlephEx](https://dryeyecare.example.com/blephex): Lid-margin exfoliation
+- [ZEST](https://dryeyecare.example.com/zest): Eyelid cleansing
+
+## Conditions
+- [Dry eye disease](https://dryeyecare.example.com/dry-eye)
+- [Meibomian gland dysfunction](https://dryeyecare.example.com/meibomian-gland-dysfunction)
+- [Blepharitis](https://dryeyecare.example.com/blepharitis)
+- [Styes](https://dryeyecare.example.com/stye-treatment)
+- [Contact lenses & dry eye](https://dryeyecare.example.com/contact-lenses-for-dry-eyes)

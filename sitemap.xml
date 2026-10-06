@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>/</loc><priority>1.0</priority></url>
+  <url><loc>https://dryeyecare.example.com/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/dry-eye</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/treatments</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/optilight</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/optiplus</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/tearcare</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/low-level-light-therapy</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/blephex</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/zest</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/meibomian-gland-dysfunction</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/blepharitis</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/stye-treatment</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/contact-lenses-for-dry-eyes</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/about</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/greenwich</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/darien</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://dryeyecare.example.com/contact</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>
