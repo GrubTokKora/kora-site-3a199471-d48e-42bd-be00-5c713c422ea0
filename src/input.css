@@ -337,6 +337,10 @@
     border-radius: var(--radius-soft);
   }
   .rise { animation: rise .9s var(--ease-settle) both; }
+  /* Homepage hero, stacked (phone) layout: crop 25% taller than the 16:8 desktop banner. */
+  @media (max-width: 767px) {
+    #hero .banner img { aspect-ratio: 16 / 11; }
+  }
 
   /* ---------- Media ---------- */
   .arch {
