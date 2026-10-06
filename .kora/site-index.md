@@ -12,7 +12,7 @@ sections:
 - `#treatments` "Six ways we restore comfort" — 6 treatment cards linking to their pages: OptiLIGHT, OptiPLUS, TearCare, Low-level light therapy, BlephEx, ZEST
 - `#causes` "Find the cause, and the treatment follows." — dark band of causes and links to condition pages: Dry eye disease, Meibomian gland dysfunction, Blepharitis, Styes, Contact lenses & dry eye
 - `#visit` "Your path to relief" — 3-step first visit: Evaluation, Treatment & follow-up
-- `#recognition` — awards and media wall: America's Best Eye Doctors, 40 Under 40
+- `#recognition` — awards and press wall: America's Best Eye Doctors, 40 Under 40
 - `#reviews` "Hear it from our patients" — links to each office's Google reviews (no quotes yet)
 - `#locations` "Visit us in Greenwich or Darien" — both offices with weekly hours: Greenwich, Darien
 - `#faq` "Dry eye, answered" — 6 questions
